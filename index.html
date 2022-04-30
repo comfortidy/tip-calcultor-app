@@ -9,75 +9,89 @@
   <title>Frontend Mentor | Tip calculator app</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    <!--.attribution { font-size: 11px; text-align: center; }
-      .attribution a { color: hsl(228, 45%, 44%);}  -->
-  </style>
+  
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
   
   <div class="logo"><image src="images/logo.svg"></div>
     <div class="tip-calculator">
-      <div class="first part">
+      <div class="first-part">
         <label>Bill</label>
-        <div><input type="number" class="input bill-input" id="bill-input" ></div>
-        <label></label>
-      <div><label>Select Tip %</label></div> 
-      <div class="tip">
+        <div>
+        <input type="number" class="input bill-input" id="bill-input" >
+      </div>
+      <div>
+        <label>Select Tip %</label> 
+      </div>
+      <div class="tip-container">
+        <div class="tip-button-box">
         <div class="tip">5%</div>
           <div class="tip"> 10%</div>
-            <div class="active-tip"> 15%</div>
+        <div class="tip active-tip"> 15%</div>
+      </div>
+        
+      <div class="tip-button-box">
               <div class="tip"> 25%</div>
                 <div class="tip">50%</div>
-     <div id="tip-custom"><input type="number" class="tip-custom" placeholder=Custom></div>
-  </div> 
-  <div class="peoplelabel">
-    <label for="">Number of People</label>
-    <label><image src=images/icon-person.svg></image></label>
-    <label for="" class="error">5</label>
-  </div>
-
-    
-
-   
+                 <div class="tip custom-tip">Custom</div>
+                </div>
     </div>
-
-    <div class="result">
-      <div class="tip-amount"></div>
-      <div class="text"></div>
+    
+  
+  <div class="peoplelabel">
+    <p>Number of People</p>
+    <div class="people-container">
+      <p><image src=images/icon-person.svg></image></p>
+      <p class="error">5</p>
+    </div>
+  </div>
+    </div>
+   
+   
+   <div class="result">
+      <div class="tip-amount">
+        <div class="text">
       <p>Tip Amount</p>
       <p class="person">/ person</p>
-      
-      <div class="amount" id="tip-amount"><image src=images/icon-dollar.svg>4.27</div>
-    <div>
-      <div class="total"></div>
-      <div class="text"></div>
+        </div>
+        <div class="amount" id="tip-amount"><image src=images/icon-dollar.svg>4.27</div>
+      </div>
+      <div class="total">
+        <div class="text">
       <p>Total</p>
-      <p class="person">/ person</p>
-    </div>
+        <p class="person">/ person</p>
+      </div>
     <div class="amount" id="total"><image src=images/icon-dollar.svg>32.79</image></div>
-
-    <div class="reset"></div>
-    <p>RESET</p>
+      </div>  
+      
+        
+      
+    
+    
+    
+    <div class="reset-button">
+      <p>RESET</p>
+      </div>
     </div>
+    
   
 
-  
-  
-  
-
-  
-  
-
+ 
   
   
 
   
   
-  <!--<div class="attribution">
+
+  
+  
+
+  
+  
+  <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Comfort Sunday</a>.
   </div>-->
 </body>
-</html>
+</html>        
