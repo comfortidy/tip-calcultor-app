@@ -38,13 +38,14 @@
                 </div>
     </div>
     
-  
-  <div class="peoplelabel">
-    <p>Number of People</p>
-    <div class="people-container">
+  <label><p>Number of People</p></label>
+  <div> 
+    <input type="number" class="peoplelabel" id="people-input">
+    
+    <!--<div class="people-container">
       <p><image src=images/icon-person.svg></image></p>
-      <p class="error">5</p>
-    </div>
+      
+    </div>-->
   </div>
     </div>
    
@@ -55,14 +56,14 @@
       <p>Tip Amount</p>
       <p class="person">/ person</p>
         </div>
-        <div class="amount" id="tip-amount"><image src=images/icon-dollar.svg>4.27</div>
+        <div class="amount"><image src=images/icon-dollar.svg> <span id="tip-amount">0.00</span></div>
       </div>
       <div class="total">
         <div class="text">
       <p>Total</p>
         <p class="person">/ person</p>
       </div>
-    <div class="amount" id="total"><image src=images/icon-dollar.svg>32.79</image></div>
+    <div class="amount" ><image src=images/icon-dollar.svg> <span id="total">0.00</span></image></div>
       </div>  
       
         
@@ -70,7 +71,7 @@
     
     
     
-    <div class="reset-button">
+    <div class="reset-button" id="reset">
       <p>RESET</p>
       </div>
     </div>
@@ -81,18 +82,10 @@
       Coded by <a href="#">Comfort Sunday</a>.
     </div> 
 
- 
   
   
+<script src="index.js"></script>
 
-  
-  
-
-  
-  
-
-  
-  
   
 </body>
 </html>        
